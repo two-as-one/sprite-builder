@@ -1,6 +1,6 @@
 import "core-js/stable"
 import "regenerator-runtime/runtime"
 
-import { HelloWorld } from "HelloWorld"
-customElements.define("hello-world", HelloWorld)
-document.body.appendChild(document.createElement("hello-world"))
+import { CustomSprite } from "CustomSprite"
+customElements.define("custom-sprite", CustomSprite)
+document.body.appendChild(document.createElement("custom-sprite"))

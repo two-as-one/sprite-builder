@@ -1,0 +1,32 @@
+{
+  "part-defaults": {
+    "head": { "name": "head", "x": 0, "y": 0, "i": 50 },
+    "torso": { "name": "torso", "x": 0, "y": 0, "i": 1 },
+    "pelvis": { "name": "pelvis", "x": 0, "y": 0, "i": 0 }
+  },
+  "part-combinations": {
+    "boobs:2": [
+      { "name": "boob", "x": 0, "y": 0, "i": 3 },
+      { "name": "boob", "x": 8, "y": 0, "i": 2 }
+    ],
+    "boobs:3": [
+      { "name": "boob", "x": -1, "y": 0, "i": 4 },
+      { "name": "boob", "x": 4, "y": 0, "i": 3 },
+      { "name": "boob", "x": 8, "y": 0, "i": 2 }
+    ],
+    "boobs:4": [
+      { "name": "boob", "x": 0, "y": 0, "i": 5 },
+      { "name": "boob", "x": 0, "y": 5, "i": 4 },
+      { "name": "boob", "x": 7, "y": 0, "i": 3 },
+      { "name": "boob", "x": 7, "y": 5, "i": 2 }
+    ],
+    "arms:2": [
+      { "name": "arm front", "x": 0, "y": 0, "i": 50 },
+      { "name": "arm back", "x": 0, "y": 0, "i": -2 }
+    ],
+    "legs:2": [
+      { "name": "leg front", "x": 0, "y": 0, "i": 2 },
+      { "name": "leg back", "x": 0, "y": 0, "i": -1 }
+    ]
+  }
+}

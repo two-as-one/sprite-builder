@@ -13,6 +13,10 @@ module.exports = {
         test: /\.ya?ml$/,
         use: "yaml-loader",
       },
+      {
+        test: /\.(png)$/i,
+        use: "url-loader",
+      },
     ],
   },
 
