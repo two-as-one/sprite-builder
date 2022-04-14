@@ -1,0 +1,11 @@
+{
+  "presets": [["@babel/preset-env"]],
+  "plugins": [],
+  "sourceMaps": true,
+
+  "env": {
+    "production": {
+      "sourceMaps": false
+    }
+  }
+}
