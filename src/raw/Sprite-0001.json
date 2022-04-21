@@ -1,5 +1,5 @@
 { "frames": {
-   "arm back": {
+   "palette": {
     "frame": { "x": 0, "y": 0, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -7,7 +7,7 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "leg back": {
+   "silouhette": {
     "frame": { "x": 0, "y": 128, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -15,7 +15,7 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "pelvis": {
+   "arm back": {
     "frame": { "x": 0, "y": 256, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -23,7 +23,7 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "torso": {
+   "leg back": {
     "frame": { "x": 0, "y": 384, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -31,7 +31,7 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "boob": {
+   "pelvis": {
     "frame": { "x": 0, "y": 512, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -39,7 +39,7 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "head": {
+   "torso": {
     "frame": { "x": 0, "y": 640, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -47,7 +47,7 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "leg front": {
+   "balls": {
     "frame": { "x": 0, "y": 768, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
@@ -55,8 +55,136 @@
     "sourceSize": { "w": 128, "h": 128 },
     "duration": 100
    },
-   "arm front": {
+   "pussy:1": {
     "frame": { "x": 0, "y": 896, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "pussy:2": {
+    "frame": { "x": 0, "y": 1024, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "cocks:small:1": {
+    "frame": { "x": 0, "y": 1152, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "cocks:small:2": {
+    "frame": { "x": 0, "y": 1280, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "cocks:medium:1": {
+    "frame": { "x": 0, "y": 1408, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "cocks:medium:2": {
+    "frame": { "x": 0, "y": 1536, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "heads:1": {
+    "frame": { "x": 0, "y": 1664, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "face:1": {
+    "frame": { "x": 0, "y": 1792, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "eyes:1": {
+    "frame": { "x": 0, "y": 1920, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "eyebrows:1": {
+    "frame": { "x": 0, "y": 2048, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "hair:1": {
+    "frame": { "x": 0, "y": 2176, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "leg front": {
+    "frame": { "x": 0, "y": 2304, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "arm front": {
+    "frame": { "x": 0, "y": 2432, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "boobs:0": {
+    "frame": { "x": 0, "y": 2560, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "boobs:2": {
+    "frame": { "x": 0, "y": 2688, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "boobs:3": {
+    "frame": { "x": 0, "y": 2816, "w": 128, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
+    "sourceSize": { "w": 128, "h": 128 },
+    "duration": 100
+   },
+   "boobs:4": {
+    "frame": { "x": 0, "y": 2944, "w": 128, "h": 128 },
     "rotated": false,
     "trimmed": false,
     "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 128 },
@@ -68,20 +196,39 @@
   "app": "https://www.aseprite.org/",
   "version": "1.2.34.1-x64",
   "image": "Sprite-0001.png",
-  "format": "RGBA8888",
-  "size": { "w": 128, "h": 1024 },
+  "format": "I8",
+  "size": { "w": 128, "h": 3072 },
   "scale": "1",
   "frameTags": [
   ],
   "layers": [
+   { "name": "palette", "opacity": 255, "blendMode": "normal" },
+   { "name": "silouhette", "opacity": 255, "blendMode": "normal" },
    { "name": "arm back", "opacity": 255, "blendMode": "normal" },
    { "name": "leg back", "opacity": 255, "blendMode": "normal" },
    { "name": "pelvis", "opacity": 255, "blendMode": "normal" },
    { "name": "torso", "opacity": 255, "blendMode": "normal" },
-   { "name": "boob", "opacity": 255, "blendMode": "normal" },
-   { "name": "head", "opacity": 255, "blendMode": "normal" },
+   { "name": "genitalia" },
+   { "name": "balls", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "pussy:1", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "pussy:2", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "cocks:small:1", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "cocks:small:2", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "cocks:medium:1", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "cocks:medium:2", "group": "genitalia", "opacity": 255, "blendMode": "normal" },
+   { "name": "heads:1" },
+   { "name": "heads:1", "group": "heads:1", "opacity": 255, "blendMode": "normal" },
+   { "name": "face:1", "group": "heads:1", "opacity": 255, "blendMode": "normal" },
+   { "name": "eyes:1", "group": "heads:1", "opacity": 255, "blendMode": "normal" },
+   { "name": "eyebrows:1", "group": "heads:1", "opacity": 255, "blendMode": "normal" },
+   { "name": "hair:1", "group": "heads:1", "opacity": 255, "blendMode": "normal" },
    { "name": "leg front", "opacity": 255, "blendMode": "normal" },
-   { "name": "arm front", "opacity": 255, "blendMode": "normal" }
+   { "name": "arm front", "opacity": 255, "blendMode": "normal" },
+   { "name": "boobs" },
+   { "name": "boobs:0", "group": "boobs", "opacity": 255, "blendMode": "normal" },
+   { "name": "boobs:2", "group": "boobs", "opacity": 255, "blendMode": "normal" },
+   { "name": "boobs:3", "group": "boobs", "opacity": 255, "blendMode": "normal" },
+   { "name": "boobs:4", "group": "boobs", "opacity": 255, "blendMode": "normal" }
   ]
  }
 }

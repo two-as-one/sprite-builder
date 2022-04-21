@@ -1,6 +1,6 @@
 import "core-js/stable"
 import "regenerator-runtime/runtime"
+import { MyApp } from "components/MyApp"
 
-import { CustomSprite } from "CustomSprite"
-customElements.define("custom-sprite", CustomSprite)
-document.body.appendChild(document.createElement("custom-sprite"))
+customElements.define("my-app", MyApp)
+document.body.appendChild(document.createElement("my-app"))
