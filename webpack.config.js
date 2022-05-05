@@ -14,8 +14,8 @@ module.exports = {
         use: "yaml-loader",
       },
       {
-        test: /\.(png)$/i,
-        use: "url-loader",
+        test: /\.(png|jpg|jpeg|gif)$/,
+        loader: "file-loader",
       },
     ],
   },
